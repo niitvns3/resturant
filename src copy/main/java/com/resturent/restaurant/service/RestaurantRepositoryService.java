@@ -17,9 +17,6 @@ public class RestaurantRepositoryService {
     @Transactional  // 👈 holds transaction until method completes
     public  Restaurant  saveDataRestaurant(Restaurant data)  {
        
-        List <Restaurant> list = new ArrayList<>();
-        list = restaurantRepository.findAll();
-        System.out.println(list);
        return  restaurantRepository.save(data);
  
     }

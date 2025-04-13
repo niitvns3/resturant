@@ -16,7 +16,6 @@ public class RestaurantApplication {
         
 	}
 /*
-
 @Bean
 CommandLineRunner demo() {
    return args -> {

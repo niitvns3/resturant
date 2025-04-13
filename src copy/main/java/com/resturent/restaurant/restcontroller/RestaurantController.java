@@ -42,11 +42,17 @@ public class RestaurantController
         
     }
 
+
     @GetMapping("/allReview")
     public List<Review>  getReview() {  
         return  reviewRepositoryService.getAllReview();
     }
 
+
+    
+    public List<Review>  getReviewMoc() {  
+        return  reviewRepositoryService.getAllReview();
+    }
 
 
 }
